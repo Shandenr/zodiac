@@ -4,8 +4,7 @@ var myZodiacSign2 = zodiacSign(2,18);
 var myZodiacSign3 = zodiacSign(6,1);
 console.log(myZodiacSign1);
 console.log(myZodiacSign2);
-console.log(myZodiacSign3);
-//Hello World
+
 //use the fs function that comes with node
 const fs = require("fs");
 fs.writeFileSync("file1.txt", myZodiacSign1 + " and " + myZodiacSign2);
